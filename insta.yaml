@@ -1,18 +1,16 @@
-AWSTemplateFormatVersion: 2010-09-09
-Description: AZ Parameter demo
-
 Parameters:
   MyKeyName:
     Description: Select the key name from the list
     Type: AWS::EC2::KeyPair::KeyName
+    Default: akhee
   MyAvailabilityZone:
     Description: Select the AZ
     Type: String
-    Default: us-east-2a
+    Default: ap-south-1a
     AllowedValues:
-      - us-east-2a
-      - us-east-2b    
-      - us-east-2c
+      - ap-south-1a
+      - ap-south-2b    
+      - ap-south-3c
   MyInstanceType:
     Description: Select the ec2 instance type from list
     Type: String      
@@ -25,7 +23,7 @@ Resources:
   DevEC2Instance: 
     Type: 'AWS::EC2::Instance'
     Properties: 
-      ImageId: ami-0cd3dfa4e37921605
+      ImageId: ami-09ba48996007c8b50
       InstanceType: !Ref MyInstanceType
       KeyName: !Ref MyKeyName
       SecurityGroups:
