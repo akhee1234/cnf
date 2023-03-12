@@ -4,7 +4,7 @@ pipeline {
         stage('Subhash Stack') {
             steps {
             sh """
-                    aws cloudformation deploy --stack-name akhee --template-file instance.yaml --parameter-overrides file://para.json --region ap-south-1
+                    aws cloudformation deploy --stack-name creatingstack --template-file insta.yaml --parameter-overrides file://para.json --region ap-south-1
 
                    
                 
