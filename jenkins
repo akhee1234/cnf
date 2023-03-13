@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Subhash Stack') {
+        stage('akhee Stack') {
             steps {
             sh """
                     aws cloudformation deploy --stack-name creatingstack --template-file insta.yaml --parameter-overrides file://para.json --region ap-south-1
