@@ -1,6 +1,6 @@
 [
     "MyKeyName=akhee",
-    "MyAvailabilityZone=ap-south-1a",
+    "MyAvailabilityZone=ap-south-1b",
     "MyInstanceType=t2.micro",
     "Imageid=ami-09ba48996007c8b50",
     "Tags= akhee_instance "
