@@ -1,7 +1,8 @@
 [
     "MyKeyName=akhee",
-    "AZName=ap-south-1a",
-    "InstType=t2.micro",
-    "AMIID=ami-0d81306eddc614a45",
-    "InstName = akhee-instance"
+    "MyAvailabilityZone=ap-south-1a",
+    "MyInstanceType=t2.micro",
+    "Imageid=ami-09ba48996007c8b50",
+    "Tags= akhee_instance "
 ]
+
