@@ -1,7 +1,7 @@
 Parameters:
   MyKeyName:
     Description: Select the key name from the list
-    Type: AWS::EC2::KeyPair::KeyName
+    Type: string
     Default: akhee
   MyAvailabilityZone:
     Description: Select the AZ
