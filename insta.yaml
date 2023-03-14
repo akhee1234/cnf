@@ -9,8 +9,8 @@ Parameters:
     Default: ap-south-1a
     AllowedValues:
       - ap-south-1a
-      - ap-south-2b    
-      - ap-south-3c
+      - ap-south-1b    
+      - ap-south-1c
   MyInstanceType:
     Description: Select the ec2 instance type from list
     Type: String      
