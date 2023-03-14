@@ -1,5 +1,5 @@
 [
-    "KeyName=akhee",
+    "MyKeyName=akhee",
     "AZName=ap-south-1a",
     "InstType=t2.micro",
     "AMIID=ami-0d81306eddc614a45",
